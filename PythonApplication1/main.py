@@ -11,6 +11,7 @@ def main():
     #numpy_test()
     dat=loadtxt_test()
     panda_test()
+    print('This project was uploaed to gitbub')
 
 if __name__ == "__main__":
     sys.exit(int(main() or 0))
