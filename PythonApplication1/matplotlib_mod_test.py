@@ -1,4 +1,3 @@
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -9,8 +8,3 @@ def numpy_test():
     plt.plot(x,y)
     plt.title(r'$\alpha -\beta$')
     plt.show()
-
-def loadtxt_test():
-    a=np.loadtxt('./data.txt')
-    print(a)
-    return a

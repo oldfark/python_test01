@@ -22,7 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="numpy_plot_mod.py">
+    <Compile Include="matplotlib_mod_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy_mod.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="panda_test_mod.py">
