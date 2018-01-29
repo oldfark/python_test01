@@ -21,12 +21,13 @@ import System
 def pythonnet_test_str():
     print(System.Environment.Version)
 
-#def pythonnet_test_csharp_dll():
-#    path = '.\\CS_DLL\\CS_DLL\\bin\\Debug\\'
-#    from CS_DLL import Class1
-#    p = Class1()
-#    b = p.add(1. , 3.)
-#    print(b)
-#    a= p.Print(u'강정민')
-#    print(a)
+def pythonnet_test_csharp_dll():
+    path = '../CS_DLL/bin/Debug/'
+    clr.AddReference(path+'CS_DLL')  #주의사항: 끝에 .dll 이라는 확장자를 뺀다
+    from CS_DLL import Class1
+    p = Class1()
+    b = p.add(1. , 3.)
+    print(b)
+    a= p.Print(u'강정민')
+    print(a)
 

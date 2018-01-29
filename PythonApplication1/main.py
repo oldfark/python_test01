@@ -1,7 +1,7 @@
 
 import sys
 from pythonnet_mod import pythonnet_test_str
-#from panda_test_mod import *
+from pythonnet_mod import pythonnet_test_csharp_dll
 from numpy_mod import *
 from pythonnet_mod import *
 
@@ -16,6 +16,7 @@ def main():
     #panda_test()
     #loadtxt_test()
     pythonnet_test_str()
+    pythonnet_test_csharp_dll()
     print('여기는 저의 회사 사무실입니다.!!!')
 
 if __name__ == "__main__":
