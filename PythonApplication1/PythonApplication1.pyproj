@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="exp_matplotlib_mathtex.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="matplotlib_mod_test.py">
       <SubType>Code</SubType>
     </Compile>
