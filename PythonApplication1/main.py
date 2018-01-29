@@ -15,6 +15,7 @@ def main():
     #panda_test()
     #loadtxt_test()
     pythonnet_test_str()
+    print('here is my office!!!')
 
 if __name__ == "__main__":
     sys.exit(int(main() or 0))
