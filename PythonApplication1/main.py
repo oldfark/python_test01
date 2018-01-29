@@ -1,5 +1,6 @@
 
 import sys
+from pythonnet_mod import pythonnet_test_str
 #from panda_test_mod import *
 from numpy_mod import *
 from pythonnet_mod import *

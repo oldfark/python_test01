@@ -16,8 +16,17 @@ http://pythonnet.github.io/
 
 """
 import clr
+import System
 
 def pythonnet_test_str():
-    clr.AddReference("System.Windows.Forms")
-    #from System.Windows.Forms import *
+    print(System.Environment.Version)
+
+#def pythonnet_test_csharp_dll():
+#    path = '.\\CS_DLL\\CS_DLL\\bin\\Debug\\'
+#    from CS_DLL import Class1
+#    p = Class1()
+#    b = p.add(1. , 3.)
+#    print(b)
+#    a= p.Print(u'강정민')
+#    print(a)
 
