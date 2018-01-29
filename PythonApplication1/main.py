@@ -15,7 +15,7 @@ def main():
     #panda_test()
     #loadtxt_test()
     pythonnet_test_str()
-    print('here is my office!!!')
+    print('여기는 저의 회사 사무실입니다.!!!')
 
 if __name__ == "__main__":
     sys.exit(int(main() or 0))
